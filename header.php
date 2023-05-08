@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/style.css">
-    <title>Document</title>
+    <title>The SkateRoom</title>
 </head>
 
 <body>
@@ -19,13 +19,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">About Us
+                    <a href="/aboutUs.php">About Us
 
                     </a>
 
                 </li>
                 <li>
-                    <a href="#">Product
+                    <a href="/product.php">Product
 
                     </a>
 
@@ -39,7 +39,7 @@
             </ul>
         </nav>
         <nav class="nav2">
-            <h1>The SkateRoom</h1>
+            <h3>The SkateRoom</h3>
 
             <div class="search">
 
