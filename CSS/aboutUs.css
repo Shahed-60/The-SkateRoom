@@ -1,0 +1,13 @@
+.aboutUs-page {
+  display: flex;
+}
+.aboutUs-page .aboutUs-banner {
+  display: flex;
+  height: 5rem;
+  background-color: red;
+}
+.aboutUs-page h1 {
+  background-color: red;
+}
+
+/*# sourceMappingURL=aboutUs.css.map */
