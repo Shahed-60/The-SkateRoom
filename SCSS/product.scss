@@ -1,3 +1,64 @@
-img {
-    height: 5rem;
+.all-products {
+    .product-row {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-bottom: 5rem;
+
+        >div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: #B2B2C6;
+            height: 50rem;
+            width: 25rem;
+            margin-top: 3rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            border-radius: 2rem;
+
+            .product {
+
+                h5 {
+                    margin-top: 2rem;
+                    // margin-bottom: 2rem;
+                }
+
+                p {
+                    margin-bottom: 1rem;
+                }
+
+                .shadow {
+                    box-shadow: -10px 10px #8D8DAA;
+                    border-style: solid;
+                    border-width: 2px;
+                    border-radius: 1rem;
+
+                }
+            }
+
+
+        }
+    }
+
+
+    img {
+        width: auto;
+        height: 15rem;
+        border-radius: 1rem;
+    }
+
+    .WAYNE-THIEBAUD-collection:last-child {
+        img {
+            width: 19rem;
+        }
+    }
+
+    .balloon {
+
+        width: 13rem;
+        height: 16rem;
+
+    }
 }

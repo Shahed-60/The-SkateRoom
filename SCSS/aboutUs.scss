@@ -1,17 +1,76 @@
 .aboutUs-page {
-    display: flex;
+    // display: flex;
 
 
     .aboutUs-banner {
-        display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // flex-wrap: wrap;
-        height: 5rem;
-        background-color: red;
+        h1 {
+            color: white;
+            font-size: 32px;
+            position: absolute;
+            top: 120%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            letter-spacing: 2px;
+
+        }
+
+        img {
+            width: 100%;
+
+        }
     }
 
-    h1 {
-        background-color: red;
+    .BCorp-section {
+        display: flex;
+        margin-top: 1.5rem;
+        margin-left: 6.5rem;
+
+        p {
+            font-size: larger;
+            background-color: #B2B2C650;
+            width: 35rem;
+            height: 20rem;
+            padding: 2rem;
+            border-radius: 1rem;
+
+        }
+
+        img {
+            width: 17rem;
+            height: auto;
+            position: absolute;
+            right: 18rem;
+            top: 75rem;
+        }
+    }
+
+    .ontwikkelingen-section {
+        display: flex;
+        margin-top: 1.5rem;
+        margin-right: 6.5rem;
+        margin-bottom: 2rem;
+        justify-content: flex-end;
+
+
+        p {
+
+            font-size: larger;
+            background-color: #B2B2C650;
+            width: 35rem;
+            height: 25rem;
+            padding: 3rem;
+            border-radius: 1rem;
+        }
+
+        img {
+            height: 15rem;
+            width: 15rem;
+            position: relative;
+            right: 15rem;
+            top: 2rem;
+            gap: 2rem;
+            padding: 1rem;
+
+        }
     }
 }

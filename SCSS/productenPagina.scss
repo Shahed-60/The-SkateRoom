@@ -1,5 +1,80 @@
 .productenPage {
+
     img {
-        height: 10rem;
+        height: 35rem;
     }
+
+    .product {
+        font-size: 24px;
+        display: flex;
+
+        hr {
+            margin-top: 0.5;
+            height: 2px;
+            border: none;
+            background-color: black;
+
+        }
+
+        .name-priceProduct {
+            margin: 5rem 5rem;
+            height: 7rem;
+            text-align: left;
+
+            // background-color: red;
+
+
+        }
+
+        .btn {
+            /* top | right | bottom | left */
+            margin: 20rem 20rem 0rem -19rem;
+
+
+            input {
+                font-size: 20px;
+                font-weight: bolder;
+                height: 3rem;
+                width: 18rem;
+                background-color: #FFD93D;
+                border: none;
+                color: black;
+                padding: 16px 5rem;
+                margin: 4px 2px;
+                cursor: pointer;
+
+            }
+        }
+
+        .parent {
+
+            position: relative;
+
+
+
+            .swipe-right {
+                height: 4rem;
+                width: auto;
+                position: relative;
+                bottom: 16.8rem;
+                right: 5rem;
+                // background-color: red;
+            }
+
+            .swipe-left {
+                height: 5rem;
+                width: auto;
+                position: absolute;
+                top: 14.6rem;
+                // background-color: blue;
+            }
+        }
+    }
+}
+
+.info-text {
+    font-size: 20px;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    width: 90%;
 }

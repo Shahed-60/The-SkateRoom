@@ -1,13 +1,58 @@
-.aboutUs-page {
-  display: flex;
+.aboutUs-page .aboutUs-banner h1 {
+  color: white;
+  font-size: 32px;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 2px;
 }
-.aboutUs-page .aboutUs-banner {
-  display: flex;
-  height: 5rem;
-  background-color: red;
+.aboutUs-page .aboutUs-banner img {
+  width: 100%;
 }
-.aboutUs-page h1 {
-  background-color: red;
+.aboutUs-page .BCorp-section {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-left: 6.5rem;
+}
+.aboutUs-page .BCorp-section p {
+  font-size: larger;
+  background-color: rgba(178, 178, 198, 0.3137254902);
+  width: 35rem;
+  height: 20rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.aboutUs-page .BCorp-section img {
+  width: 17rem;
+  height: auto;
+  position: absolute;
+  right: 18rem;
+  top: 75rem;
+}
+.aboutUs-page .ontwikkelingen-section {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-right: 6.5rem;
+  margin-bottom: 2rem;
+  justify-content: flex-end;
+}
+.aboutUs-page .ontwikkelingen-section p {
+  font-size: larger;
+  background-color: rgba(178, 178, 198, 0.3137254902);
+  width: 35rem;
+  height: 25rem;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.aboutUs-page .ontwikkelingen-section img {
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+  right: 15rem;
+  top: 2rem;
+  gap: 2rem;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=aboutUs.css.map */

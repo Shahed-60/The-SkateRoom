@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inter:wght@300;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inter:wght@300;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200;1,300&display=swap");
 body {
   font-family: "Inter", sans-serif;
 }
@@ -112,37 +114,33 @@ nav ul li:last-child {
   justify-content: center;
   border-radius: 0.5rem;
 }
+.homePage h2 {
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
 .homePage .all-products {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 4rem;
+  gap: 5rem;
 }
-.homePage .all-products .product-row {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  justify-content: center;
-}
-.homePage .all-products .product-row img {
-  object-fit: contain;
-  height: 350px;
-  max-width: 100%;
-  width: 30rem;
-}
-.homePage .all-products p,
-.homePage .all-products h5 {
-  margin-top: 1rem;
-  margin-left: 4rem;
-}
-.homePage .all-products .product,
 .homePage .all-products img {
-  box-shadow: 0px -10px 10px -10px #8D8DAA;
+  height: 20rem;
 }
-.homePage .all-products .color {
-  background-color: #8D8DAA;
+.homePage .all-products .product p {
+  margin-bottom: 1rem;
+}
+.homePage .all-products .product h5 {
+  margin-top: 3rem;
+}
+.homePage .all-products .product .shadow {
+  box-shadow: -10px 10px #8D8DAA;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 1rem;
 }
 
 /*  home page style end */
